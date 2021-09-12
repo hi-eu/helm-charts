@@ -3,9 +3,9 @@ entries:
   atlantis:
   - apiVersion: v1
     appVersion: v0.17.3
-    created: "2021-09-11T19:39:52.144047+07:00"
+    created: "2021-09-12T15:08:17.485017+07:00"
     description: A Helm chart for Atlantis https://www.runatlantis.io
-    digest: 34d603f75dd48474e4dde5bddebe28078d74e1deb017c1a242a13f34ffad7c52
+    digest: 40a29e786da406045ef71cc74bb19c22c03126bf01facb31d8b38dad5e53cbf1
     home: https://www.runatlantis.io
     icon: https://www.runatlantis.io/hero.png
     keywords:
@@ -16,8 +16,8 @@ entries:
     sources:
     - https://github.com/runatlantis/atlantis
     urls:
-    - https://hi-eu.github.io/helm-charts/atlantis-1.0.0.tgz
-    version: 1.0.0
+    - https://hi-eu.github.io/helm-charts/atlantis-1.0.1.tgz
+    version: 1.0.1
   external-dns:
   - annotations:
       artifacthub.io/changes: |
@@ -25,10 +25,10 @@ entries:
           description: Initial official release.
     apiVersion: v2
     appVersion: 0.9.0
-    created: "2021-09-11T19:39:52.14556+07:00"
+    created: "2021-09-12T15:08:17.485643+07:00"
     description: ExternalDNS synchronizes exposed Kubernetes Services and Ingresses
       with DNS providers.
-    digest: 8b33be6b8ff64dbde5688e0e92996884f88bc4e35371b2cf127ff25f48c69eb7
+    digest: 214d2ae636fa6df5e9c57d1b9a3c758dbd000513d21826fe23d43e75ae59dacb
     home: https://github.com/kubernetes-sigs/external-dns/
     icon: https://github.com/kubernetes-sigs/external-dns/raw/master/img/external-dns.png
     keywords:
@@ -44,4 +44,4 @@ entries:
     urls:
     - https://hi-eu.github.io/helm-charts/external-dns-1.0.0.tgz
     version: 1.0.0
-generated: "2021-09-11T19:39:52.137732+07:00"
+generated: "2021-09-12T15:08:17.481576+07:00"

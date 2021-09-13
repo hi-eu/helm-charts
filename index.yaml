@@ -3,9 +3,9 @@ entries:
   atlantis:
   - apiVersion: v1
     appVersion: v0.17.3
-    created: "2021-09-12T15:08:17.485017+07:00"
+    created: "2021-09-13T22:22:39.849284+07:00"
     description: A Helm chart for Atlantis https://www.runatlantis.io
-    digest: 40a29e786da406045ef71cc74bb19c22c03126bf01facb31d8b38dad5e53cbf1
+    digest: e9df0282473c9596d3c3ccccc6018b284d3b519062939e401f87ccf18fb9cda5
     home: https://www.runatlantis.io
     icon: https://www.runatlantis.io/hero.png
     keywords:
@@ -25,10 +25,10 @@ entries:
           description: Initial official release.
     apiVersion: v2
     appVersion: 0.9.0
-    created: "2021-09-12T15:08:17.485643+07:00"
+    created: "2021-09-13T22:22:39.850537+07:00"
     description: ExternalDNS synchronizes exposed Kubernetes Services and Ingresses
       with DNS providers.
-    digest: 214d2ae636fa6df5e9c57d1b9a3c758dbd000513d21826fe23d43e75ae59dacb
+    digest: 10cb3b9ca13ae09bda15076ec5ea57edad8bbf6fba185e2a57e568cbc02e4425
     home: https://github.com/kubernetes-sigs/external-dns/
     icon: https://github.com/kubernetes-sigs/external-dns/raw/master/img/external-dns.png
     keywords:
@@ -44,4 +44,30 @@ entries:
     urls:
     - https://hi-eu.github.io/helm-charts/external-dns-1.0.0.tgz
     version: 1.0.0
-generated: "2021-09-12T15:08:17.481576+07:00"
+  kubernetes-dashboard:
+  - apiVersion: v2
+    appVersion: 2.3.1
+    created: "2021-09-13T22:22:39.852474+07:00"
+    dependencies:
+    - condition: metrics-server.enabled
+      name: metrics-server
+      repository: https://charts.helm.sh/stable/
+      version: 2.11.1
+    description: General-purpose web UI for Kubernetes clusters
+    digest: 9e3834ada82195b08493e1f678bafb22d6ba0cf2dc5e6cc99fd1bca4a3e25c01
+    home: https://github.com/kubernetes/dashboard
+    icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.svg
+    keywords:
+    - kubernetes
+    - dashboard
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: cdesaintmartin@wiremind.fr
+      name: desaintmartin
+    name: kubernetes-dashboard
+    sources:
+    - https://github.com/kubernetes/dashboard
+    urls:
+    - https://hi-eu.github.io/helm-charts/kubernetes-dashboard-5.0.0.tgz
+    version: 5.0.0
+generated: "2021-09-13T22:22:39.846723+07:00"

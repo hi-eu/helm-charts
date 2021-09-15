@@ -3,9 +3,9 @@ entries:
   atlantis:
   - apiVersion: v1
     appVersion: v0.17.3
-    created: "2021-09-15T13:49:47.408488+07:00"
+    created: "2021-09-15T14:40:56.122218+07:00"
     description: A Helm chart for Atlantis https://www.runatlantis.io
-    digest: 4a3f4ce591ff2f09734afffff3383577c2b89aefc8da2b7b3b5477b0ff062d1c
+    digest: e11abbc73aaacb0a5c88ac29f0daf8f2bede3b36c6ce5658a16f89d9b1bacde5
     home: https://www.runatlantis.io
     icon: https://www.runatlantis.io/hero.png
     keywords:
@@ -20,7 +20,7 @@ entries:
     version: 1.0.3
   - apiVersion: v1
     appVersion: v0.17.3
-    created: "2021-09-15T13:49:47.407552+07:00"
+    created: "2021-09-15T14:40:56.121225+07:00"
     description: A Helm chart for Atlantis https://www.runatlantis.io
     digest: 14f80d74756fe450d4b1976786fa4a89f3416fffe4b0cac60c57f6ce57ca169c
     home: https://www.runatlantis.io
@@ -37,7 +37,7 @@ entries:
     version: 1.0.2
   - apiVersion: v1
     appVersion: v0.17.3
-    created: "2021-09-15T13:49:47.405975+07:00"
+    created: "2021-09-15T14:40:56.11845+07:00"
     description: A Helm chart for Atlantis https://www.runatlantis.io
     digest: e9df0282473c9596d3c3ccccc6018b284d3b519062939e401f87ccf18fb9cda5
     home: https://www.runatlantis.io
@@ -59,7 +59,7 @@ entries:
           description: Initial official release.
     apiVersion: v2
     appVersion: 0.9.0
-    created: "2021-09-15T13:49:47.409762+07:00"
+    created: "2021-09-15T14:40:56.123668+07:00"
     description: ExternalDNS synchronizes exposed Kubernetes Services and Ingresses
       with DNS providers.
     digest: 10cb3b9ca13ae09bda15076ec5ea57edad8bbf6fba185e2a57e568cbc02e4425
@@ -81,7 +81,7 @@ entries:
   kubernetes-dashboard:
   - apiVersion: v2
     appVersion: 2.3.1
-    created: "2021-09-15T13:49:47.41284+07:00"
+    created: "2021-09-15T14:40:56.127239+07:00"
     dependencies:
     - condition: metrics-server.enabled
       name: metrics-server
@@ -104,4 +104,4 @@ entries:
     urls:
     - https://hi-eu.github.io/helm-charts/kubernetes-dashboard-5.0.0.tgz
     version: 5.0.0
-generated: "2021-09-15T13:49:47.403702+07:00"
+generated: "2021-09-15T14:40:56.113884+07:00"

@@ -3,24 +3,7 @@ entries:
   atlantis:
   - apiVersion: v1
     appVersion: v0.17.3
-    created: "2021-09-15T18:00:15.91002+07:00"
-    description: A Helm chart for Atlantis https://www.runatlantis.io
-    digest: cf05a235ea121fc713ef175ffdbea0d3e28cea3444373d13805eabe1ab1bf3ef
-    home: https://www.runatlantis.io
-    icon: https://www.runatlantis.io/hero.png
-    keywords:
-    - terraform
-    maintainers:
-    - name: sre
-    name: atlantis
-    sources:
-    - https://github.com/runatlantis/atlantis
-    urls:
-    - https://hi-eu.github.io/helm-charts/atlantis-1.0.5.tgz
-    version: 1.0.5
-  - apiVersion: v1
-    appVersion: v0.17.3
-    created: "2021-09-15T18:00:15.909061+07:00"
+    created: "2021-09-17T09:50:07.412264+07:00"
     description: A Helm chart for Atlantis https://www.runatlantis.io
     digest: 85c81d8e3ad51d00a97b649158821c38dfdc7ada7ad7804ec36d7f6b0d453c72
     home: https://www.runatlantis.io
@@ -37,7 +20,7 @@ entries:
     version: 1.0.4
   - apiVersion: v1
     appVersion: v0.17.3
-    created: "2021-09-15T18:00:15.907414+07:00"
+    created: "2021-09-17T09:50:07.41039+07:00"
     description: A Helm chart for Atlantis https://www.runatlantis.io
     digest: be30331873fbee287a430d2ca3b708d016d32587905d06533cfe00a2c704669b
     home: https://www.runatlantis.io
@@ -54,7 +37,7 @@ entries:
     version: 1.0.3
   - apiVersion: v1
     appVersion: v0.17.3
-    created: "2021-09-15T18:00:15.905618+07:00"
+    created: "2021-09-17T09:50:07.408607+07:00"
     description: A Helm chart for Atlantis https://www.runatlantis.io
     digest: 14f80d74756fe450d4b1976786fa4a89f3416fffe4b0cac60c57f6ce57ca169c
     home: https://www.runatlantis.io
@@ -71,7 +54,7 @@ entries:
     version: 1.0.2
   - apiVersion: v1
     appVersion: v0.17.3
-    created: "2021-09-15T18:00:15.904207+07:00"
+    created: "2021-09-17T09:50:07.407116+07:00"
     description: A Helm chart for Atlantis https://www.runatlantis.io
     digest: e9df0282473c9596d3c3ccccc6018b284d3b519062939e401f87ccf18fb9cda5
     home: https://www.runatlantis.io
@@ -86,6 +69,22 @@ entries:
     urls:
     - https://hi-eu.github.io/helm-charts/atlantis-1.0.1.tgz
     version: 1.0.1
+  cloud-pricing-api:
+  - apiVersion: v2
+    appVersion: v0.3.0
+    created: "2021-09-17T09:50:07.417612+07:00"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.x.x
+    description: A Helm chart for running the Infracost [Cloud Pricing API](https://github.com/infracost/cloud-pricing-api).
+    digest: 1de99d8e07fc2674d71260a6ec29fe7fe5e6a82a9b82b913e2159616ba0e58f5
+    name: cloud-pricing-api
+    type: application
+    urls:
+    - https://hi-eu.github.io/helm-charts/cloud-pricing-api-0.4.0.tgz
+    version: 0.4.0
   external-dns:
   - annotations:
       artifacthub.io/changes: |
@@ -93,7 +92,7 @@ entries:
           description: Initial official release.
     apiVersion: v2
     appVersion: 0.9.0
-    created: "2021-09-15T18:00:15.911056+07:00"
+    created: "2021-09-17T09:50:07.418735+07:00"
     description: ExternalDNS synchronizes exposed Kubernetes Services and Ingresses
       with DNS providers.
     digest: 10cb3b9ca13ae09bda15076ec5ea57edad8bbf6fba185e2a57e568cbc02e4425
@@ -115,7 +114,7 @@ entries:
   kubernetes-dashboard:
   - apiVersion: v2
     appVersion: 2.3.1
-    created: "2021-09-15T18:00:15.914487+07:00"
+    created: "2021-09-17T09:50:07.421555+07:00"
     dependencies:
     - condition: metrics-server.enabled
       name: metrics-server
@@ -138,4 +137,4 @@ entries:
     urls:
     - https://hi-eu.github.io/helm-charts/kubernetes-dashboard-5.0.0.tgz
     version: 5.0.0
-generated: "2021-09-15T18:00:15.901921+07:00"
+generated: "2021-09-17T09:50:07.405387+07:00"
